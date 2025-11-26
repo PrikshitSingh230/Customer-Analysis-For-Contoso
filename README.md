@@ -5,7 +5,7 @@ This report looks at customer spending, retention, and lifetime value. The aim i
 
 ## Clean Up Data ✨
 
-**SQL Code:** [create_view.sql]([Optimized_view.sql])
+**SQL Code:** [create_view.sql]([[Optimized_view.sql]](https://github.com/PrikshitSingh230/Customer-Analysis-For-Contoso/blob/main/SQL_Query/Optimized_view.sql))
 
 - Combined sales and customer details  
 - Calculated first purchase dates for cohort analysis  
@@ -17,7 +17,7 @@ This report looks at customer spending, retention, and lifetime value. The aim i
 
 ### 1. Customer Segmentation 🔍
 
-**SQL Code:** [customer_segmentation.sql](Customer_Segmentation.sql)
+**SQL Code:** [customer_segmentation.sql]([Customer_Segmentation.sql](https://github.com/PrikshitSingh230/Customer-Analysis-For-Contoso/blob/main/SQL_Query/Customer_Segmentation.sql))
 
 - Grouped customers into High, Mid, and Low value  
 - Calculated lifetime value (LTV)  
@@ -41,7 +41,7 @@ This report looks at customer spending, retention, and lifetime value. The aim i
 
 ### 2. Customer Revenue by Cohort 📅
 
-**SQL Code:** [cohort_analysis.sql](cohort_analysis.sql)
+**SQL Code:** [cohort_analysis.sql]([cohort_analysis.sql](https://github.com/PrikshitSingh230/Customer-Analysis-For-Contoso/blob/main/SQL_Query/cohort_analysis.sql))
 
 - Grouped customers by first purchase year  
 - Measured revenue and customer counts per cohort  
@@ -66,14 +66,14 @@ This report looks at customer spending, retention, and lifetime value. The aim i
 
 ### 3. Customer Retention 🔁
 
-**SQL Code:** [retention_analysis.sql](retention_analysis.sql)
+**SQL Code:** [retention_analysis.sql]([retention_analysis.sql](https://github.com/PrikshitSingh230/Customer-Analysis-For-Contoso/blob/main/SQL_Query/retention_analysis.sql))
 
 - Identified inactive and at-risk customers  
 - Analyzed last purchase dates  
 - Measured retention across cohorts  
 
 **Visualization**  
-<img src="../Resources/images/7.3_customer_churn_cohort_year.png" width="50%">
+<img src="Images/segmentation_analysis_1.png" width="50%">
 
 #### Key Findings  
 - After 2–3 years, cohorts settle at ~90% churn.  
