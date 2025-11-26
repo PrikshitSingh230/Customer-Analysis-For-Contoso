@@ -1,13 +1,11 @@
-# Customer-Analysis-For-Contoso
-
-# Intermediate SQL – Sales Analysis
+# Customer Segmentation, Cohort & Retention Analysis for Contoso
 
 ## Overview  
 This report looks at customer spending, retention, and lifetime value. The aim is to understand how customers behave over time and find simple ways to improve revenue and keep them active.
 
 ## Clean Up Data ✨
 
-**SQL Code:** 'View.sql'(Optimized_view.sql)
+**SQL Code:** [create_view.sql](Optimized_view.sql)
 
 - Combined sales and customer details  
 - Calculated first purchase dates for cohort analysis  
@@ -19,13 +17,13 @@ This report looks at customer spending, retention, and lifetime value. The aim i
 
 ### 1. Customer Segmentation 🔍
 
-**SQL File:** `1_customer_segmentation.sql`
+**SQL Code:** [customer_segmentation.sql](Customer_Segmentation.sql)
 
 - Grouped customers into High, Mid, and Low value  
 - Calculated lifetime value (LTV)  
 - Summarized revenue contribution  
 
-**Visualization:**  
+**Visualization**  
 <img src="../Resources/images/6.3_customer_segementation.png" width="50%">
 
 #### Key Findings  
@@ -43,13 +41,13 @@ This report looks at customer spending, retention, and lifetime value. The aim i
 
 ### 2. Customer Revenue by Cohort 📅
 
-**SQL File:** `2_cohort_analysis.sql`
+**SQL Code:** [cohort_analysis.sql](cohort_analysis.sql)
 
 - Grouped customers by first purchase year  
 - Measured revenue and customer counts per cohort  
 - Compared long-term trends  
 
-**Visualizations:**  
+**Visualizations**  
 <img src="../Resources/images/5.2_customer_revenue_normalized.png" width="50%">  
 <img src="../Resources/images/5.2_monthly_revenue_customers_3mo.png" width="50%">
 
@@ -68,13 +66,13 @@ This report looks at customer spending, retention, and lifetime value. The aim i
 
 ### 3. Customer Retention 🔁
 
-**SQL File:** `3_retention_analysis.sql`
+**SQL Code:** [retention_analysis.sql](retention_analysis.sql)
 
 - Identified inactive and at-risk customers  
 - Analyzed last purchase dates  
 - Measured retention across cohorts  
 
-**Visualization:**  
+**Visualization**  
 <img src="../Resources/images/7.3_customer_churn_cohort_year.png" width="50%">
 
 #### Key Findings  
