@@ -7,7 +7,7 @@ This report looks at customer spending, retention, and lifetime value. The aim i
 
 ## Clean Up Data ✨
 
-**SQL Code:**[View.sql](Optimized_View.sql)
+**SQL Code:** 'View.sql'(Optimized_view.sql)
 
 - Combined sales and customer details  
 - Calculated first purchase dates for cohort analysis  
